@@ -1,0 +1,38 @@
+Critical Thinking Program 4.
+Car Class:
+
+
+Requirements:
+    
+    Class named 'Car' that has the following member var:
+       
+        yearModel - int
+        make - string
+        speed - int
+
+    Constructor
+    Accessor method
+    'accelerate' method that adds 5 to the 'speed' member when it is called
+    'brake' method that subtracts 5 from the 'speed' member
+    
+    Demonstrate the class by calling the 'accelerate' method 5 times, then outputting the current speed.
+    Call the 'brake' method 5 times, then output the current speed.
+
+
+
+First Thoughts:
+    
+    Honestly, it seems straight forward. Create the class,
+    then create an object with a 'make' & 'model'. Make a 
+    function that calls the proper methods 5x. Should 
+    probably make a function that allows the user to specify
+    the make and model.
+
+Real Steps:
+
+    0.) At the top of the paper goes my name...with the date!
+    1.) Create the 'Car' class.
+    2.) Add the ^above members
+    3.) Create a function that greets a user and allows them to specify which make and model. 
+    4.) Make sure step 3 uses the contructor.
+    5.) Make ea function that calls the 'brake' & 'accelerate' methods 5x & and prints the 'speed' each time.
